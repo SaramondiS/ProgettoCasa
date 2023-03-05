@@ -3,5 +3,5 @@ CREATE TABLE `users` (
     `username` varchar(50) NOT NULL,
     `password` varchar(255) NOT NULL,
     PRIMARY KEY (`id`),
-    UNIQUE KEY `username` (`username`)
+    UNIQUE KEY `username` (`username`) --Tramite la keyword UNIQUE KEY diciamo a MySQL che il campo username deve essere univoco.
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci AUTO_INCREMENT=1;
